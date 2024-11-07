@@ -24,7 +24,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #999999;
+    color: #34495e;
     font-size: 14px;
     font-family: 'Roboto Mono', monospace;
     line-height: 1.80857;
@@ -318,6 +318,7 @@ a img.aligncenter {
 }
 .navbar-dark .navbar-nav .nav-link.active{
 	font-weight: 600;
+    color: #f39c12;
 }
 .navbar-dark .navbar-nav .nav-link::after {
     content: '';
@@ -447,7 +448,7 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #333333;
+    background-color: #34495e;
 }
 
 #clouds{
@@ -456,7 +457,7 @@ xclip
 	z-index: 1;
 }
 #clouds path {
-    fill: #ffffff;
+    fill: 	#ecf0f1;
     bottom: -10px;
     overflow: hidden;
     stroke: #ffffff;
@@ -486,11 +487,11 @@ xclip
 }
 
 .section.wb {
-    background-color: #ffffff;
+    background-color: 	#ecf0f1;
 }
 
 .section.lb {
-    background-color: #f2f3f5;
+    background-color: #ecf0f1;
 }
 
 .section.db {
@@ -542,7 +543,7 @@ xclip
 }
 
 .section-title p {
-    color: #999;
+    color: #34495e;
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
