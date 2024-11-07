@@ -408,6 +408,23 @@ a img.aligncenter {
 .no-js .cd-words-wrapper b.is-visible {
   opacity: 1;
 }
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.icon-container a {
+    font-size: 36px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon-container a:hover {
+    transform: scale(1.2);
+    color: #0077B5; /* Puedes cambiar este color si deseas otro en el hover */
+}
+
 
 /* -------------------------------- 
 
