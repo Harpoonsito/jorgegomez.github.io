@@ -53,7 +53,7 @@
 }
 @media (max-width: 767px) {
 	#mainNav {
-		background-color: #34495e;
+		background: linear-gradient(to bottom, #395068, #527392); /* Gradiente vertical */
 	}
 	.navbar-dark .navbar-brand{
 		width: 55%;
@@ -101,7 +101,7 @@
 }
 @media only screen and (min-width: 280px) and (max-width: 599px) {
 	#mainNav {
-		background-color: #34495e;
+		background: linear-gradient(135deg, rgb(52, 152, 219), rgb(44, 62, 80)); /* Gradiente con dos colores */
 	}
 	.navbar-dark .navbar-brand{
 		width: 55%;

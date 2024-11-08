@@ -461,12 +461,15 @@ xclip
   opacity: 1;
 }
 
-
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #34495e;
+    background: linear-gradient(to bottom, #395068, #527392); /* Gradiente vertical */
 }
+    
+
+
+
 
 #clouds{
 	margin-top: -5%;
@@ -2184,7 +2187,7 @@ select.mobile-device {
 .footer-distributed .footer-company-name {
     font-weight: 300;
     margin: 0 10px;
-    color: #ffffff;
+    color: #ffffff65;
     padding: 0;
 }
 
