@@ -588,13 +588,13 @@ xclip
 
 
 .btn-hover-new{
-	color: #333333;
+	color: #34495e;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	position: relative;
-	border: 1px solid #333333;
+	border: 1px solid #34495e;
 	overflow: hidden;
 	padding: 0px 18px;
 	display: inline-block;
@@ -635,7 +635,7 @@ xclip
 
 .btn-hover-new:hover{
 	color: #ffffff;
-	background-color: #333333;
+	background-color: #34495e;
 }
 .btn-hover-new:hover > span {
     opacity: 0;
@@ -1365,8 +1365,8 @@ hr.invis1 {
 }
 
 .filter-button-group button.active{
-	background: #333333;
-	color: #fff;
+	background: linear-gradient(to bottom, #395068, #527392); /* Gradiente vertical */
+	color: #eec480;
 	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
 }
 
@@ -2284,7 +2284,7 @@ select.mobile-device {
 }
 
 .dmtop {
-    background-color:#f39c12;
+    background: linear-gradient(to bottom, #f39c12, #e67e22); /* Gradiente vertical */
     z-index: 100;
     width: 50px;
     height: 50px;
