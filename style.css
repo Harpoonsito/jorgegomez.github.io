@@ -824,86 +824,6 @@ xclip
 
 
 /*------------------------------------------------------------------
-    TESTIMONIALS
--------------------------------------------------------------------*/
-
-.logos img {
-    margin: auto;
-    display: block;
-    text-align: center;
-    width: 100%;
-    opacity: 0.3;
-}
-
-.logos img:hover {
-    opacity: 0.5;
-}
-
-.desc h3 i {
-    color: #cccccc;
-    font-size: 37px;
-    vertical-align: middle;
-    margin-right: 12px;
-}
-
-.desc {
-    padding: 30px;
-    position: relative;
-    background: #000;
-    border: 1px solid #111111;
-}
-
-.testi-meta {
-    display: block;
-    margin-top: 20px;
-}
-
-.testimonial h4 {
-    font-size: 18px;
-    color: #333333;
-    padding: 13px 0 0;
-}
-
-.testimonial img {
-    max-width: 55px;
-}
-
-.testimonial small {
-    margin-top: 7px;
-    font-size: 16px;
-    display: block;
-}
-
-.testimonial {
-    background-color: transparent;
-}
-
-.testimonial h3 {
-    padding: 0 0 10px;
-    font-size: 20px;
-    font-weight: 600;
-	color: #ffffff;
-}
-
-.testimonial small,
-.testimonial .lead {
-    background-color: transparent;
-    color: #aaa;
-    display: block;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 30px;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-
-.testimonial p:after {
-    display: none;
-}
-
-
-/*------------------------------------------------------------------
     PRICING TABLES
 -------------------------------------------------------------------*/
 
@@ -2077,49 +1997,56 @@ select.mobile-device {
     box-shadow: none !important;
     width: 100%;
 	border-radius: 0px;
-}
-
-.contact_form textarea {
-    color: #bcbcbc;
-    padding: 20px 25px !important;
-    height: 160px !important;
-}
-
-.contact_form .form-control::-webkit-input-placeholder {
-    color: #bcbcbc;
-}
-
-.contact_form .form-control::-moz-placeholder {
-    opacity: 1;
-    color: #bcbcbc;
-}
-
-.contact_form .form-control::-ms-input-placeholder {
-    color: #bcbcbc;
-}
+}   
 
 #contact {
-    background: url(images/bg.png) no-repeat center center #333333;
+    background: 
+        linear-gradient(rgba(102, 141, 167, 0.404), rgba(52, 152, 219, 0.11)), 
+        url(images/New.png) no-repeat center center #34495e;
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    border: 2px solid #34495e; /* Añade un borde alrededor del contenedor */
+    padding: 50px; /* Añade espacio interno, ajusta según sea necesario */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    color: white; /* Asegura que el texto sea visible sobre el fondo */
 }
 
 
-#contact .section-title p{
-	color: #ffffff;
+
+#contact .section-title h3 {
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
-.contact_form textarea.form-control{
-	min-height: 225px;
+#contact .section-title p {
+    color: #ffffff;
+}   
+
+#contact .contact-info {
+    color: #666;
+    font-size: 16px;
+    margin-top: 20px;
 }
 
-.form-group{
-	position: relative;
+#contact .contact-link {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 20px;
 }
 
-.help-block{
-	position: absolute;
-	top: 100%;
-	left: 0px;
+#contact .location {
+    color: #ffffff;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 20px;
 }
+
 
 /*------------------------------------------------------------------
     FOOTER
@@ -2226,7 +2153,7 @@ select.mobile-device {
 
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #1f1f1f;
+    background-color: #333333;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
@@ -2257,7 +2184,7 @@ select.mobile-device {
 .footer-distributed .footer-company-name {
     font-weight: 300;
     margin: 0 10px;
-    color: #666;
+    color: #ffffff;
     padding: 0;
 }
 
@@ -2354,7 +2281,7 @@ select.mobile-device {
 }
 
 .dmtop {
-    background-color: #3C3D41;
+    background-color:#f39c12;
     z-index: 100;
     width: 50px;
     height: 50px;
