@@ -86,9 +86,10 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: #333333;
+    color: #292828;
     margin: 0
 }
+
 
 h1 {
     font-size: 24px
@@ -1399,19 +1400,49 @@ hr.invis1 {
 
 .gallery-list .img-overlay {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-    background: rgba(51, 51, 51, 0.80);
-    color: #35424C;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8); /* Fondo negro translúcido */
+    color: #ffffff; /* Texto blanco */
     opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     -webkit-transition: all .5s;
     transition: all .5s;
     z-index: 2;
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; /* Fuente recomendada */
 }
+
+.gallery-list .img-overlay .project-info h4 {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.gallery-list .img-overlay .project-info p {
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+.gallery-list .gallery-single:hover .img-overlay {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.project-title {
+    color: #d9ff03; /* Cambia este color según prefieras */
+    font-weight: bold; /* Si deseas que sean más destacados */
+}
+
+
 
 .gallery-list .gallery-single:hover .img-overlay {
     opacity: 1;
